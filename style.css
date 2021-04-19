@@ -22,6 +22,7 @@ div.contain {
 a.linkedIn, a.github {
 	background-size: contain;
 	background-position: center;
+	background-repeat: no repeat;
 	display: block;
 	position: relative;
 	width: 400px;
@@ -30,9 +31,11 @@ a.linkedIn, a.github {
 }
 
 a.linkedIn {
-	background: url(img/LI-Logo.png) no-repeat;
+	background-image: url(img/LI-Logo.png);
+	background-size: contain;
+	background-position: center;
 }
 
 a.github {
-	background: url(img/GitHub_Logo_White.png) no-repeat;
+	background-image: url(img/GitHub_Logo.png);
 }
