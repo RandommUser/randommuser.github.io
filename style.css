@@ -3,7 +3,7 @@ body {
 	color: #25a188;
 }
 
-div.wrapper {
+div#wrapper {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -11,18 +11,22 @@ div.wrapper {
 }
 
 div.contain {
-	margin: 0 auto;
+	margin: 200px auto;
 	padding: 0;
 	width: 800px;
-	height: 100px;
+	height: auto;
 	text-align: center;
-	font-size: 50px;
+	font-size: 42px;
+}
+
+div.contain b {
+	font-size: 84px;
 }
 
 a.linkedIn, a.github {
 	background-size: contain;
 	background-position: center;
-	background-repeat: no repeat;
+	background-repeat: no-repeat;
 	display: block;
 	position: relative;
 	width: 400px;
