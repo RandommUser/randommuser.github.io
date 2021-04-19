@@ -2,3 +2,37 @@ body {
 	background: #fff1d2;
 	color: #25a188;
 }
+
+div.wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.contain {
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+	height: 100px;
+	text-align: center;
+	font-size: 50px;
+}
+
+a.linkedIn, a.github {
+	background-size: contain;
+	background-position: center;
+	display: block;
+	position: relative;
+	width: 400px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+a.linkedIn {
+	background: url(img/LI-Logo.png) no-repeat;
+}
+
+a.github {
+	background: url(img/GitHub_Logo_White.png) no-repeat;
+}
